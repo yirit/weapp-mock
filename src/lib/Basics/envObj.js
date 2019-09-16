@@ -1,0 +1,1 @@
+global.envObj = 'mock';

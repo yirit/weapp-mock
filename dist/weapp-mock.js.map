@@ -1,0 +1,1 @@
+{"version":3,"file":"weapp-mock.js","sources":["../src/lib/global.js","../src/lib/Basics/canIUse.js"],"sourcesContent":["global.wx = {};\n","wx.canIUse = jest.fn(() => {});"],"names":["global","wx","canIUse","jest","fn"],"mappings":";;;;;;;;;;;;;AAAAA,eAAAA,CAAOC,EAAPD,CAAY;;CCAZC,EAAE,CAACC,OAAH,CAAaC,IAAI,CAACC,EAAL,CAAQ,UAAM,EAAd;;;;"}
