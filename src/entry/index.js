@@ -1,2 +1,3 @@
+import wxMock from '../lib/index';
 
-export * as wxMock from '../lib/index';
+export default wxMock;
