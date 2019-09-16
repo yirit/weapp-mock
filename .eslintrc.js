@@ -11,7 +11,10 @@ module.exports = {
   },
   plugins: ['import'],
   extends: ['airbnb'],
-  globals: {},
+  globals: {
+    jest: true,
+    wx: true,
+  },
   // add your custom rules here
   rules: {
     'prefer-promise-reject-errors': 0,

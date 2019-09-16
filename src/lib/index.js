@@ -8,3 +8,7 @@ function setToWx(api) {
 }
 
 setToWx(BasicsApi);
+
+const wxMock = wx;
+
+export default wxMock;

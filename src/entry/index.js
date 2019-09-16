@@ -1,2 +1,2 @@
 
-export * from '../lib/index';
+export * as wxMock from '../lib/index';
