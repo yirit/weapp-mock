@@ -1,0 +1,25 @@
+const api = [
+  'login',
+  'checkSession',
+  'navigateToMiniProgram',
+  'navigateBackMiniProgram',
+  'getAccountInfoSync',
+  'getUserInfo',
+  'reportMonitor',
+  'reportAnalytics',
+  'requestPayment',
+  'authorize',
+  'openSetting',
+  'getSetting',
+  'chooseAddress',
+  'openCard',
+  'addCard',
+  'chooseInvoiceTitle',
+  'chooseInvoice',
+  'startSoterAuthentication',
+  'checkIsSupportSoterAuthentication',
+  'checkIsSoterEnrolledInDevice',
+  'getWeRunData',
+];
+
+export default api;

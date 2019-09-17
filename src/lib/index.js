@@ -7,6 +7,8 @@ import DataCache from './DataCache';
 import Location from './Location';
 import Share from './Share';
 import Canvas from './Canvas';
+import File from './File';
+import OpenInterface from './OpenInterface';
 
 function setToWx(api) {
   api.forEach((item) => {
@@ -22,6 +24,8 @@ setToWx(DataCache);
 setToWx(Location);
 setToWx(Share);
 setToWx(Canvas);
+setToWx(File);
+setToWx(OpenInterface);
 
 const wxMock = wx;
 
