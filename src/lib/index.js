@@ -9,6 +9,7 @@ import Share from './Share';
 import Canvas from './Canvas';
 import File from './File';
 import OpenInterface from './OpenInterface';
+import Equipment from './Equipment';
 
 function setToWx(api) {
   api.forEach((item) => {
@@ -26,6 +27,7 @@ setToWx(Share);
 setToWx(Canvas);
 setToWx(File);
 setToWx(OpenInterface);
+setToWx(Equipment);
 
 const wxMock = wx;
 
