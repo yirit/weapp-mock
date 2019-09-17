@@ -6,6 +6,7 @@ import Network from './Network';
 import DataCache from './DataCache';
 import Location from './Location';
 import Share from './Share';
+import Canvas from './Canvas';
 
 function setToWx(api) {
   api.forEach((item) => {
@@ -20,6 +21,7 @@ setToWx(Network);
 setToWx(DataCache);
 setToWx(Location);
 setToWx(Share);
+setToWx(Canvas);
 
 const wxMock = wx;
 

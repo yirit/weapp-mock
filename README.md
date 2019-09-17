@@ -9,3 +9,4 @@ description: 微信小程序接口jest mock
 - setBackgroundFetchToken
 - CameraFrameListener
 - EditorContext
+- Canvas
