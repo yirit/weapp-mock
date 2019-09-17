@@ -13,6 +13,7 @@ import Equipment from './Equipment';
 import './Worker';
 import ThirdPartyPlatform from './ThirdPartyPlatform';
 import './XML';
+import './Advertisement';
 
 function setToWx(api) {
   api.forEach((item) => {
