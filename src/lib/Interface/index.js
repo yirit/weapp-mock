@@ -1,5 +1,5 @@
 
-import Animation from './Animation';
+import './Animation';
 import Background from './Background';
 import Font from './Font';
 import Interactive from './Interactive';
@@ -17,7 +17,6 @@ const api = [
   'onKeyboardHeightChange', // 键盘
   'hideKeyboard', // 键盘
   'getSelectedTextRange', // 键盘
-  ...Animation,
   ...Background,
   ...Font,
   ...Interactive,
