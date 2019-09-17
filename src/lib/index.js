@@ -12,6 +12,7 @@ import OpenInterface from './OpenInterface';
 import Equipment from './Equipment';
 import './Worker';
 import ThirdPartyPlatform from './ThirdPartyPlatform';
+import './XML';
 
 function setToWx(api) {
   api.forEach((item) => {
