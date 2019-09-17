@@ -1,4 +1,8 @@
 ## weapp-mock
 ----------------------------
 author: bugszhou | Email:bugszhou@outlook.com <br>
-description: A lib project with ziu
+description: 微信小程序接口jest mock
+
+### TODO
+
+- EventChannel

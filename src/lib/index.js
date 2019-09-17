@@ -1,5 +1,6 @@
 import './global';
 import BasicsApi from './Basics/index';
+import Route from './Route';
 
 function setToWx(api) {
   api.forEach((item) => {
@@ -8,6 +9,7 @@ function setToWx(api) {
 }
 
 setToWx(BasicsApi);
+setToWx(Route);
 
 const wxMock = wx;
 
