@@ -10,6 +10,7 @@ import Canvas from './Canvas';
 import File from './File';
 import OpenInterface from './OpenInterface';
 import Equipment from './Equipment';
+import './Worker';
 
 function setToWx(api) {
   api.forEach((item) => {
