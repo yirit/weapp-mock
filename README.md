@@ -6,3 +6,4 @@ description: 微信小程序接口jest mock
 ### TODO
 
 - EventChannel
+- setBackgroundFetchToken
